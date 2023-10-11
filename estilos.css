@@ -1,0 +1,172 @@
+.navBar {
+    display: flex;
+    background-color: #2b3035;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+}
+
+.navBar a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.navBar img {
+    width: 5.5em;
+    margin-right: 10px;
+
+}
+
+.navLeft {
+    flex-grow: 1;
+}
+
+.carousel-item img {
+    filter: brightness(60%);
+}
+
+.texto {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    color: white;
+    align-items: end;
+    justify-content: end;
+    padding-right: 20px;
+    overflow-y: auto;
+    box-sizing: border-box;
+    max-height: 70%;
+}
+
+.texto p {
+    text-align: right;
+    margin-bottom: 50px;
+}
+
+.texto a {
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px;
+    color: white;
+    margin-left: 20px;
+    background-color: green;
+}
+
+.texto button {
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 5px
+}
+
+.oradores {
+    text-align: center;
+    margin: auto
+}
+
+.tarejtasOradores {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 5%;
+    justify-content: space-around;
+}
+
+.tarjetas {
+    padding: 10px;
+}
+
+.javaScript {
+    background-color: #fec107;
+    border-radius: 5px;
+    border: none;
+    color: black;
+    font-weight: bold;
+    margin-left: -43%;
+}
+
+.react {
+    background-color: #17a2b7;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: bold;
+
+}
+
+.card-title {
+    text-align: left;
+}
+
+.fotos {
+    display: flex;
+}
+
+.fotos div {
+    background-color: #353a40;
+    color: white;
+    padding: 10px;
+    overflow-y: auto;
+    box-sizing: border-box;
+}
+
+.fotos div button {
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    border-radius: 5px;
+}
+
+.fotos img {
+    max-width: 50%;
+}
+
+.contacto {
+    text-align: center;
+}
+
+form input {
+    width: 50%;
+    margin: 20px 10px;
+    border: grey 1px solid;
+    border-radius: 5px;
+}
+
+form textarea {
+    border: grey 1px solid;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.submit {
+    background-color: #96c93e;
+    padding: 8px 25%;
+    border-radius: 10px;
+    color: white;
+    border: none;
+
+}
+
+.inputs {
+    margin: 0% 25%;
+    display: flex;
+}
+
+.textArea {
+    margin: 0% 25%;
+}
+
+.footer {
+    margin-top: 10px;
+    background-color: #1d3a4a;
+    /* font-size: .7rem; */
+}
+
+.footer .nav-link {
+    color: white;
+}
